@@ -8,6 +8,11 @@ from pprint import pprint
 import mysql.connector
 import json
 
+
+###########
+#Salut ajout Yacine 
+##################
+
 app = Flask(__name__)
 
 @app.route('/ayahs/<int:surah_id>',methods=['GET'])
